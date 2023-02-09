@@ -5,6 +5,10 @@ import java.util.List;
 
 public class FilterMain {
   public static void main(List<Integer> intList) {
+    filterByIterating(intList);
+  }
+
+  public static void filterByIterating(List<Integer> intList) {
     List<Integer> processedList = new ArrayList<>();
 
     for(int item : intList) {

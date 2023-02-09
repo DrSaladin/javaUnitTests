@@ -26,7 +26,7 @@ public class FilterMainTest {
   }
 
   @Test
-  public void main() {
+  public void filterByIterating() {
     List<Integer> intList = Arrays.asList(1, 2, 5, 16, -1, -2, 0, 32, 3, 5, 8, 23, 4);
     FilterMain.main(intList);
     assertEquals("[2, 4, 8, 16, 32]", outputStreamCaptor.toString().trim());
